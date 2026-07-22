@@ -64,10 +64,3 @@ I trained two AI models (Logistic Regression and Random Forest) to guess who wil
   <img src="outputs/figures/logistic_regression_roc_curve.png" width="45%" alt="LR ROC Curve"/>
 </p>
 
-## How to Run My Code
-
-1. Clone this project to your computer:
-
-```bash
-git clone [https://github.com/OanhKim-tmd/Customer-Churn-Prediction.git](https://github.com/OanhKim-tmd/Customer-Churn-Prediction.git)
-cd Customer-Churn-Prediction
