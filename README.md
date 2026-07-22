@@ -26,8 +26,7 @@ This is my student project about Customer Churn in a telecom company.
 
 I also made a Power BI Dashboard. It helps managers see the data easily. 
 
-*(Upload an image of your dashboard to the `dashboard/screenshots/` folderfolderolder)
-<!-- ![Overview Dashboard](dashboard/screenshots/overview.png) -->
+*(Upload an image of your dashboard to the `dashboard/screenshots/`)
 
 My dashboard answers these important questions:
 * **How many customers leave?** About 26.54% of customers leave.
