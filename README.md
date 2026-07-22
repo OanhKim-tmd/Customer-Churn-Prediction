@@ -22,7 +22,7 @@ The main goal is to find why customers leave (churn) and build basic models to p
   * `figures/`: EDA graphs, Confusion Matrices, ROC curves, Feature Importance.
   * `models/`: Contains evaluation metrics like `cv_results.csv`, `feature_importance.csv`, and `model_results.csv`.
 
-## 💡 Business Questions & Power BI Dashboard
+##  Business Questions & Power BI Dashboard
 
 In addition to the Machine Learning models, this project includes an interactive Power BI Dashboard to help business stakeholders monitor customer churn.
 
@@ -36,7 +36,7 @@ This project answers key business questions regarding customer churn:
 * **Does monthly charges influence churn?** Yes. Higher monthly charges (bands 68.50 to 98.65) correlate with higher churn rates (35-40%), whereas lower charges (18.25) see less than 10% churn.
 * **What is the churn rate among customers with tech support?** Customers without tech support churn at a much higher rate (41.64%) compared to those with it (15.17%).
 
-## 📊 Key Analysis & Insights (EDA)
+##  Key Analysis & Insights (EDA)
 
 Through Exploratory Data Analysis (EDA), here are some main findings:
 * **Contract Type:** Customers with month-to-month contracts have a much higher churn rate compared to long-term contracts.
@@ -44,7 +44,7 @@ Through Exploratory Data Analysis (EDA), here are some main findings:
 * **Tenure:** New customers (short tenure) are more likely to churn than loyal customers.
 * **Important Features:** Random Forest Feature Importance shows that tenure, monthly charges, and contract type are the top factors for churn.
 
-## 🤖 Model Evaluation
+##  Model Evaluation
 
 We trained and evaluated Machine Learning models (Logistic Regression & Random Forest) to predict customer churn. Below are the visual results of our models:
 
