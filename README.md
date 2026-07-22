@@ -35,7 +35,7 @@ My dashboard answers these important questions:
 * **Does the price change things?** Yes. If the monthly price is high, more people leave. If the price is low, they stay.
 * **Do they need tech support?** Yes. Customers without tech support leave more often (41.64%) than customers with it (15.17%).
 
-## What I Found (Data Analysis)
+## What I Found
 
 From my charts, I found these interesting things:
 * **Contract:** Short contracts mean more people leave.
