@@ -1,54 +1,54 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
 
-# Telco Customer Churn Analysis & Prediction
+# Telecom Customer Churn Project
 
-This is a Data Analysis project about Customer Churn in a Telecom company.
+This is my student project about Customer Churn in a telecom company. 
 
-The main goal is to find why customers leave (churn) and build basic models to predict churn risk. This helps the business team make better retention strategies.
+"Churn" means customers stop using the company's service. My goal is to find out **why** they leave. I also build simple AI models to guess who will leave next. This helps the company keep their customers happy.
 
-## Project Structure
+## 📂 Project Folders
 
-* `dashboard/`: Contains the Power BI dashboard (`BI_prj.pbix`) and screenshots.
-* `data/`: Contains original data and cleaned data.
-* `src/`: Python scripts for data processing and analysis.
-  * `data_loader.py`: Load raw data and clean missing values.
-  * `eda.py`: Perform Exploratory Data Analysis (EDA) and create visual charts.
-  * `preprocessing.py`: Prepare data for modeling (Encoding, Scaling, Split).
-  * `models.py`: Train Logistic Regression and Random Forest models.
-  * `evaluation.py`: Evaluate models and save result charts.
-  * `main.py`: Run the whole pipeline.
-* `outputs/`: Saved charts, tables, and insights.
-  * `figures/`: EDA graphs, Confusion Matrices, ROC curves, Feature Importance.
-  * `models/`: Contains evaluation metrics like `cv_results.csv`, `feature_importance.csv`, and `model_results.csv`.
+* `dashboard/`: Contains my Power BI file (`BI_prj.pbix`) and pictures.
+* `data/`: My raw data and clean data files.
+* `src/`: My Python code.
+  * `data_loader.py`: Open data and fix missing parts.
+  * `eda.py`: Make charts to understand the data.
+  * `preprocessing.py`: Get the data ready for the AI model.
+  * `models.py`: Train the Machine Learning models.
+  * `evaluation.py`: Check if the models are good and save pictures.
+  * `main.py`: Run all the code.
+* `outputs/`: Saved pictures, charts, and results.
+  * `figures/`: Confusion Matrices, ROC curves, and other charts.
+  * `models/`: CSV files with my results (`cv_results.csv`, etc.).
 
-##  Business Questions & Power BI Dashboard
+## 📊 Business Questions & Power BI
 
-In addition to the Machine Learning models, this project includes an interactive Power BI Dashboard to help business stakeholders monitor customer churn.
+I also made a Power BI Dashboard. It helps managers see the data easily. 
 
-*(Upload an image of your dashboard to the `dashboard/screenshots/` folder and name it `overview.png`, then uncomment the line below to show it here)*
+*(Upload an image of your dashboard to the `dashboard/screenshots/` folder, then uncomment the line below to show it here)*
 <!-- ![Overview Dashboard](dashboard/screenshots/overview.png) -->
 
-This project answers key business questions regarding customer churn:
-* **What is the overall churn rate?** The overall churn rate in this dataset is 26.54%.
-* **How does churn vary by contract type?** Month-to-month contracts have the highest churn rate (42.71%), while Two-year contracts show strong retention with only 2.83% churn.
-* **What is the average tenure of churned vs non-churned customers?** Churned customers have a shorter average tenure (17.98 months) compared to retained customers (37.57 months).
-* **Does monthly charges influence churn?** Yes. Higher monthly charges (bands 68.50 to 98.65) correlate with higher churn rates (35-40%), whereas lower charges (18.25) see less than 10% churn.
-* **What is the churn rate among customers with tech support?** Customers without tech support churn at a much higher rate (41.64%) compared to those with it (15.17%).
+My dashboard answers these important questions:
+* **How many customers leave?** About 26.54% of customers leave.
+* **Does the contract type matter?** Yes. People with short contracts (month-to-month) leave a lot (42.71%). People with 2-year contracts stay longer (only 2.83% leave).
+* **How long do they stay?** Customers who leave only stay for about 18 months. Customers who stay are with the company for about 37 months.
+* **Does the price change things?** Yes. If the monthly price is high, more people leave. If the price is low, they stay.
+* **Do they need tech support?** Yes. Customers without tech support leave more often (41.64%) than customers with it (15.17%).
 
-##  Key Analysis & Insights (EDA)
+## 💡 What I Found (Data Analysis)
 
-Through Exploratory Data Analysis (EDA), here are some main findings:
-* **Contract Type:** Customers with month-to-month contracts have a much higher churn rate compared to long-term contracts.
-* **Payment Method:** Customers using Electronic Check leave more often.
-* **Tenure:** New customers (short tenure) are more likely to churn than loyal customers.
-* **Important Features:** Random Forest Feature Importance shows that tenure, monthly charges, and contract type are the top factors for churn.
+From my charts, I found these interesting things:
+* **Contract:** Short contracts mean more people leave.
+* **Payment:** People who pay by "Electronic Check" leave more.
+* **Time:** New customers leave more than old customers.
+* **Top Reasons:** The AI model says that time, price, and contract type are the biggest reasons why people leave.
 
-##  Model Evaluation
+## 🤖 Model Results
 
-We trained and evaluated Machine Learning models (Logistic Regression & Random Forest) to predict customer churn. Below are the visual results of our models:
+I trained two AI models (Logistic Regression and Random Forest) to guess who will leave. Here are my pictures:
 
-### 1. Random Forest Performance
+### 1. Random Forest Results
 **Confusion Matrix & ROC Curve:**
 <p align="center">
   <img src="outputs/figures/random_forest_confusion_matrix.png" width="45%" alt="RF Confusion Matrix"/>
@@ -56,21 +56,21 @@ We trained and evaluated Machine Learning models (Logistic Regression & Random F
 </p>
 
 **Feature Importance:**
-*(Tenure and Total/Monthly Charges are the most critical factors deciding if a customer will churn)*
+*(Time and Price are the most important things)*
 <p align="center">
   <img src="outputs/figures/random_forest_feature_importance.png" width="70%" alt="Feature Importance"/>
 </p>
 
-### 2. Logistic Regression Performance
+### 2. Logistic Regression Results
 <p align="center">
   <img src="outputs/figures/logistic_regression_confusion_matrix.png" width="45%" alt="LR Confusion Matrix"/>
   <img src="outputs/figures/logistic_regression_roc_curve.png" width="45%" alt="LR ROC Curve"/>
 </p>
 
-## How to Run
+## 🚀 How to Run My Code
 
-1. Clone this repository:
+1. Clone this project to your computer:
 
 ```bash
-git clone https://github.com/OanhKim-tmd/Customer-Churn-Prediction.git
+git clone [https://github.com/OanhKim-tmd/Customer-Churn-Prediction.git](https://github.com/OanhKim-tmd/Customer-Churn-Prediction.git)
 cd Customer-Churn-Prediction
