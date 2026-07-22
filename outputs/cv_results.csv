@@ -1,0 +1,3 @@
+Model,CV_F1
+Logistic Regression,0.6327
+Random Forest,0.6057

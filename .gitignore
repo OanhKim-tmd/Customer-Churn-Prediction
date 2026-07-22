@@ -1,5 +1,26 @@
+# Virtual Environment
 venv/
+.venv/
+env/
+
+# Python Cache & Compiled files
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
