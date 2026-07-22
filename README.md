@@ -72,5 +72,5 @@ We trained and evaluated Machine Learning models (Logistic Regression & Random F
 1. Clone this repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/OanhKim-tmd/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
