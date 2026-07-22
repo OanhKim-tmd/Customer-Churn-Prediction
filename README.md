@@ -7,7 +7,7 @@ This is my student project about Customer Churn in a telecom company.
 
 "Churn" means customers stop using the company's service. My goal is to find out **why** they leave. I also build simple AI models to guess who will leave next. This helps the company keep their customers happy.
 
-## 📂 Project Folders
+## Project Folders
 
 * `dashboard/`: Contains my Power BI file (`BI_prj.pbix`) and pictures.
 * `data/`: My raw data and clean data files.
@@ -22,11 +22,11 @@ This is my student project about Customer Churn in a telecom company.
   * `figures/`: Confusion Matrices, ROC curves, and other charts.
   * `models/`: CSV files with my results (`cv_results.csv`, etc.).
 
-## 📊 Business Questions & Power BI
+## Business Questions & Power BI
 
 I also made a Power BI Dashboard. It helps managers see the data easily. 
 
-*(Upload an image of your dashboard to the `dashboard/screenshots/` folder, then uncomment the line below to show it here)*
+*(Upload an image of your dashboard to the `dashboard/screenshots/` folderfolderolder)
 <!-- ![Overview Dashboard](dashboard/screenshots/overview.png) -->
 
 My dashboard answers these important questions:
@@ -36,7 +36,7 @@ My dashboard answers these important questions:
 * **Does the price change things?** Yes. If the monthly price is high, more people leave. If the price is low, they stay.
 * **Do they need tech support?** Yes. Customers without tech support leave more often (41.64%) than customers with it (15.17%).
 
-## 💡 What I Found (Data Analysis)
+## What I Found (Data Analysis)
 
 From my charts, I found these interesting things:
 * **Contract:** Short contracts mean more people leave.
@@ -44,7 +44,7 @@ From my charts, I found these interesting things:
 * **Time:** New customers leave more than old customers.
 * **Top Reasons:** The AI model says that time, price, and contract type are the biggest reasons why people leave.
 
-## 🤖 Model Results
+## Model Results
 
 I trained two AI models (Logistic Regression and Random Forest) to guess who will leave. Here are my pictures:
 
@@ -67,7 +67,7 @@ I trained two AI models (Logistic Regression and Random Forest) to guess who wil
   <img src="outputs/figures/logistic_regression_roc_curve.png" width="45%" alt="LR ROC Curve"/>
 </p>
 
-## 🚀 How to Run My Code
+## How to Run My Code
 
 1. Clone this project to your computer:
 
