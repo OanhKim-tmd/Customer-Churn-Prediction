@@ -26,8 +26,6 @@ This is my student project about Customer Churn in a telecom company.
 
 I also made a Power BI Dashboard. It helps managers see the data easily. 
 
-*(Upload an image of your dashboard to the `dashboard/screenshots/`)
-
 My dashboard answers these important questions:
 * **How many customers leave?** About 26.54% of customers leave.
 * **Does the contract type matter?** Yes. People with short contracts (month-to-month) leave a lot (42.71%). People with 2-year contracts stay longer (only 2.83% leave).
@@ -59,7 +57,7 @@ I trained two AI models (Logistic Regression and Random Forest) to guess who wil
 <p align="center">
   <img src="outputs/figures/random_forest_feature_importance.png" width="70%" alt="Feature Importance"/>
 </p>
-
+ 
 ### 2. Logistic Regression Results
 <p align="center">
   <img src="outputs/figures/logistic_regression_confusion_matrix.png" width="45%" alt="LR Confusion Matrix"/>
